@@ -18,6 +18,15 @@ A python module for 3D Magnetic forward simulation and data inversion
 A python module for 3D Gravity forward simulation and data inversion
 
 ## Install
-1. python setup.py build   2. python setup.py install
+`python setup.py build`
+`python setup.py install`
+
 or 
-1. python setup.py build install
+
+`python setup.py build install`
+
+## Python environment
+``
+``
+``
+``
