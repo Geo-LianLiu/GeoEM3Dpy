@@ -1,49 +1,57 @@
-# GeoEM3Dpy (Preparing ...)
-A python package for 3D geophysical electromagnetic (GeoEM) simulation and data inversion
+## GeoEM3Dpy: A python package for 3D geophysical electromagnetic (GeoEM) simulation and data inversion
 
-### 1. MT3DFD
-A python module for 3D Magnetotelluric (MT) forward simulation and data inversion based on the finite difference (FD) method
 
-### 2. DC3DFD
-A python module for 3D Direct Current resistivity (DC) forward simulation and data inversion based on the finite difference (FD) method
+- MT3DFD
 
-### 3. CSEM3DFD
-A python module for 3D Controlled Source ElectroMagnetic forward simulation and data inversion based on the finite difference (FD) method
+  A python module for 3D Magnetotelluric (MT) forward simulation and data inversion based on the finite difference (FD) method
 
-### 4. Magnetic3D
-A python module for 3D Magnetic forward simulation and data inversion
+- DC3DFD
 
-### 5. Gravity3D
-A python module for 3D Gravity forward simulation and data inversion
+  A python module for 3D Direct Current resistivity (DC) forward simulation and data inversion based on the finite difference (FD) method
+
+- CSEM3DFD
+
+  A python module for 3D Controlled Source ElectroMagnetic forward simulation and data inversion based on the finite difference (FD) method
+
+- Magnetic3D
+
+  A python module for 3D Magnetic forward simulation and data inversion based on the rectilinear grid
+
+- Gravity3D
+  
+  A python module for 3D Gravity forward simulation and data inversion based on the rectilinear grid
 
 
 
 
 ## Install
-### 1. Install Anaconda and create a new environment
-wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+- Install Anaconda and create a new environment
 
-`bash Anaconda3-2023.09-0-Linux-x86_64.sh`
+  wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
 
-`conda create -n GeoEM3Dpy python=3.10`
+  `bash Anaconda3-2023.09-0-Linux-x86_64.sh`
 
-### 2. Install TensorFlow
-`conda install -c main tensorflow==2.11 or conda install tensorflow==2.11`
+  `conda create -n GeoEM3Dpy python=3.10`
 
-`conda install mpi4py matplotlib`
+- Install TensorFlow
 
-`pip install psutil pyevtk`
+  `conda install -c main tensorflow==2.11 or conda install tensorflow==2.11`
 
-### 3. Install GeoEM3Dpy
-`python setup.py build`
-`python setup.py install`
+  `conda install mpi4py matplotlib`
 
-or 
+  `pip install psutil pyevtk`
 
-`python setup.py build install`
+- Install GeoEM3Dpy
+  
+  `python setup.py build`
+  `python setup.py install`
+
+  or 
+
+  `python setup.py build install`
 
 
 ### To do
-TEM3DFD
+- TEM3DFD
 
-Joint inversion
+- Joint inversion
