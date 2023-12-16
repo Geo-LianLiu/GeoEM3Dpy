@@ -1,30 +1,25 @@
 ## GeoEM3Dpy: A python package for 3D geophysical electromagnetic (GeoEM) simulation and data inversion
 
 
-- MT3DFD
-
+### MT3DFD
   A python module for 3D Magnetotelluric (MT) forward simulation and data inversion based on the finite difference (FD) method
 
-- DC3DFD
-
+### DC3DFD
   A python module for 3D Direct Current resistivity (DC) forward simulation and data inversion based on the finite difference (FD) method
 
-- CSEM3DFD
-
+### CSEM3DFD
   A python module for 3D Controlled Source ElectroMagnetic forward simulation and data inversion based on the finite difference (FD) method
 
-- Magnetic3D
-
+### Magnetic3D
   A python module for 3D Magnetic forward simulation and data inversion based on the rectilinear grid
-
-- Gravity3D
+### Gravity3D
   
   A python module for 3D Gravity forward simulation and data inversion based on the rectilinear grid
 
 
 
 
-## Install
+### Install
 - Install Anaconda and create a new environment
 
   wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
