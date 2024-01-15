@@ -1,20 +1,20 @@
-## GeoEM3Dpy: A python package for 3D geophysical electromagnetic (GeoEM) simulation and data inversion
+## GeoEM3Dpy: A python package for 3D geophysical electromagnetic (GeoEM) simulation and inversion
 
 
 ### MT3DFD
-  A python module for 3D Magnetotelluric (MT) forward simulation and data inversion based on the finite difference (FD) method
+  A python module for 3D Magnetotelluric (MT) forward simulation and inversion based on the finite difference (FD) method
 
 ### DC3DFD
-  A python module for 3D Direct Current resistivity (DC) forward simulation and data inversion based on the finite difference (FD) method
+  A python module for 3D Direct Current resistivity (DC) forward simulation and inversion based on the finite difference (FD) method
 
 ### CSEM3DFD
-  A python module for 3D Controlled Source ElectroMagnetic forward simulation and data inversion based on the finite difference (FD) method
+  A python module for 3D Controlled Source ElectroMagnetic forward simulation and inversion based on the finite difference (FD) method
 
 ### Magnetic3D
-  A python module for 3D Magnetic forward simulation and data inversion based on the rectilinear grid
+  A python module for 3D Magnetic forward simulation and inversion based on the rectilinear grid
 ### Gravity3D
   
-  A python module for 3D Gravity forward simulation and data inversion based on the rectilinear grid
+  A python module for 3D Gravity forward simulation and inversion based on the rectilinear grid
 
 
 
